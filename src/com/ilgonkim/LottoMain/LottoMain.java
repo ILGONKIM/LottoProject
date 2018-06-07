@@ -9,7 +9,7 @@ public class LottoMain {
 		int numbers[]  = lotto.generate();
 		
 		for(int num: numbers) {
-			System.out.println(num + ".");
+			System.out.print(num + ".");
 		}
 			
 		

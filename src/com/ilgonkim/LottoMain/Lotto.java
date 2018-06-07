@@ -13,16 +13,18 @@ public class Lotto {
 		{
 			int randomNumber = random.nextInt(35) + 1;
 			
-			System.out.println("test");
+			System.out.println("test :" + i);
 			if(!isExit(randomNumber, result)) {
 				result[i] = randomNumber;
-				i = i + 1;
-			}else {
-				i = i - 1;
+				System.out.println("같지 않은 경우");
+			}/* else {
+				result[i] = randomNumber;
+				System.out.println("같은 경우 발생");
 			
 			}
-		
+	*/	
 		}
+		
 		return result; 
 		
 	}
